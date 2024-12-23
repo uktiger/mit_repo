@@ -87,7 +87,7 @@ def main():
     setup_logger()
     
     # Define file paths
-    model_path = 'model.pkl'
+    model_path = 'models/model.pkl'
     test_data_path = os.path.join('data', 'processed', 'test_processed.csv')
     metrics_output_path = 'reports/metrics.json'
 

@@ -19,4 +19,4 @@ rf.fit(x_train, y_train)
 
 import pickle
 
-pickle.dump(rf, open('model.pkl', 'wb'))  # wb->binary file
+pickle.dump(rf, open('models/model.pkl', 'wb'))  # wb->binary file
